@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Film Baza</string>
+    <string name="izadi">izadi</string>
+    <string name="spremi">Spremi</string>
+    <string name="exit">exit_2</string>
+    <string name="ne">Ne</string>
+    <string name="da">Da</string>
+    <string name="exit_2">exit</string>
+    <string name="strani_film">Strani Film</string>
+    <string name="domaci_film">Domaci Film</string>
+    <string name="trajanje">Trajanje</string>
+    <string name="godina">Godina</string>
+    <string name="ime_filma">Ime Filma</string>
+    <string name="sifra_filma">Sifra Filma</string>
+    <string name="zatvori">zatvori</string>
+
+    <string-array name="imeRezisera">
+        <item>Verhoven</item>
+        <item>Raimi</item>
+        <item>Kubrick</item>
+        <item>Miller</item>
+    </string-array>
+
+</resources>

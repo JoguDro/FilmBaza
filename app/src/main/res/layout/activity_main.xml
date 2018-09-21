@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSifra"
+        android:inputType="number"
+        android:hint="@string/sifra_filma"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etImeFilma"
+        android:hint="@string/ime_filma"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spReziser"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etGodina"
+        android:hint="@string/godina"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etTrajanje"
+        android:hint="@string/trajanje"
+        android:inputType="number"
+        />
+    <RadioGroup
+        android:id="@+id/rgGrupa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/rbDomaci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/domaci_film"
+            android:onClick="provjeriRadioBottun"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:id="@+id/rbStrani"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strani_film"
+            android:onClick="provjeriRadioBottun"
+            />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSpremi"
+        android:text="@string/spremi"
+        />
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="@string/izadi"
+        />
+
+
+</LinearLayout>
